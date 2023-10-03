@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            /*List<Student> students = new List<Student>();
+            List<Student> students = new List<Student>();
             string fName, lName;
 
             students.Add(new Student("Foscar", "Grouch"));
@@ -14,7 +14,7 @@
             Console.WriteLine("Testing setters and getters");
             students[2].FirstName = "Steve";                //Test set property FirstName
             Console.WriteLine(students[2].FirstName);       //Test get property FirstName
-            Console.WriteLine(students[2].StudentNumber);   //Test get property StudentNumber
+            Console.WriteLine(students[2].StudentNum);   //Test get property StudentNumber
             students[1].LastName = "Hitchcock";             //Test set property LastName
             Console.WriteLine(students[1].LastName);        //Test get property FirstName
             Console.WriteLine(students[1].Email);           //Test get property get email
@@ -63,9 +63,7 @@
 
             Console.WriteLine();
             Console.WriteLine("Press Enter to quit");
-            Console.ReadLine(); */
-            Student s = new Student("","");
-            Console.WriteLine(s.StudentNum);
+            Console.ReadLine();
         }
     }
 }
